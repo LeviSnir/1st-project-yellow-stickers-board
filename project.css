@@ -1,0 +1,207 @@
+body{
+    background-image: url(images/tile.jpg);
+    padding-top:50px;
+    
+}
+
+
+#title{
+    padding-bottom: 20px;
+}
+
+.fill_sticker{
+    background-image: url(images/formbg.jpg);
+    padding-left: 50px;
+    width: 600px;
+    margin-left: 25%;
+    font-family: 'unna';
+    font-size: 22px;
+    border: none;
+    
+}
+
+#date{
+    margin-left: 25%;
+    width: 150px;
+    border: none;
+}
+
+#time{
+    margin-left: 130px;
+    border: none;
+}
+
+.sub{
+   /* float: right;*/
+    position: relative;
+    left: 135px;
+    border: none;
+    
+}
+
+
+.stkr{
+    background-image: url(images/notebg.png);
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 18px;
+    font-family: 'unna';
+    font-size: 15px;
+    max-width: 185px;
+    height: 260px;
+    margin: 0 auto;
+    float: left; 
+    /* animation: fadein 3s ; */
+} 
+
+/* @keyframes fadein{
+    from {opacity: 0;}
+    to {opacity: 1;}
+} */
+
+#error_alert{
+    width: 370px;
+    text-align: center;
+    margin-left: 25%;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+.note.visible {
+    opacity: 100;
+    transition: opacity 3s;
+}
+.note:not(.visible) {
+    opacity: 0;
+    transition: opacity 1s;
+} 
+
+
+
+
+.stkr button{ 
+    position: relative; 
+    color: brown;
+    float: right;
+    display: none;
+}  
+
+#stkrs :hover button{  
+    display: block;
+    padding-top: 0px;
+}
+
+ p.inpt_txt{
+    height: 140px;
+    width: 172px;
+    overflow-y: auto;
+    overflow-x:hidden;
+    word-break: break-all;
+    margin-bottom: 0px;
+    margin-right: 0px ;
+    padding-top: 3px;
+}
+
+
+.stkdte , .stktme{
+    height:30px;
+    width: 170px;
+    margin-right: 0px;
+}
+
+.stkdte{
+    padding-top: 5px;
+}
+
+
+p.sktdte{
+    margin-right: 0px;
+}
+
+p.skttme{
+    margin-right: 0px;
+}
+@media (max-width:1640px){
+    .sub{
+        left: 148px;
+        }
+    }
+
+@media (max-width:990px){
+   
+    .fill_sticker{
+        margin-left: 50px;
+        width: 600px;
+        padding: 0 0 0 0 ;
+        font-size: 34px;
+        border: none;
+        
+    }
+    #date{
+        margin-left: 50px;
+    }
+
+    .stkr{
+        margin-right:20px;
+    }
+    }
+
+    @media (max-width:768px){
+        .sub{
+            left:80px;
+        }
+        
+        #time{
+            margin-left: 100px;
+        }
+        .fill_sticker{
+            margin-left: 0px;
+            width: 500px;
+            padding: 0 0 0 0 ;
+            font-size: 34px;
+            
+            
+        }
+        #date{
+            margin-left: 0px;
+        }
+    
+        .stkr{
+            margin-right:0px;
+        }
+    }
+
+    @media (max-width:580px){
+        .sub{
+            left:80px;
+        }
+       
+        .stkr{
+            margin-top: 5px;
+            border: none;
+        }
+        .fill_sticker{
+            margin-left: 0px;
+            
+    }
+}
+    @media (max-width:452px){
+        .sub{
+            left:0px;
+        }
+
+        #time{
+            margin-left: 0px;
+        }
+   
+        .stkr{
+            margin-top: 5px;
+            border: none;
+        }
+        .fill_sticker{
+            margin-left: 0px;
+            width: 300px;
+        }
+}

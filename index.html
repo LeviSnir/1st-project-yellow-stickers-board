@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Unna' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <link rel="stylesheet" href="project.css">
+    
+    <title>Snir's Project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class ="col-lg-12" id="title">
+            <img src="images/title.png" class="mx-auto d-block">
+            </div>
+        </div>    
+                <form id="form">
+                        <div class="form-group">
+                                <textarea rows="3" type="text" class="fill_sticker" required placeholder="write here your next assignment"></textarea>
+                                <br/>
+                                <input class="new_date" id="date" name="date" type="text" required placeholder="dd/mm/yyyy" />
+                                <input class="new_time" id="time" name="time" type="time" />
+                                <input type="submit" id="submit" value="submit" class="btn btn-success sub">
+                                <br/>
+                                <div id="error_alert" class="alert alert-danger" style="display: none;">Add a future date please!</div>
+                        </div> 
+                </form>        
+                        <div class="row" id="stkrs">
+                        </div>
+    </div>
+
+
+    <script src="project.js"></script>
+
+</body>
+</html>
+
+
